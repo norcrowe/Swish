@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88558B9C2C2F18180017179C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88558B9B2C2F18180017179C /* Preview Assets.xcassets */; };
+		88558BAF2C2F185E0017179C /* SwishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88558BA32C2F185D0017179C /* SwishApp.swift */; };
+		88558BB12C2F185E0017179C /* Migrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88558BA52C2F185D0017179C /* Migrator.swift */; };
+		88558BB22C2F185E0017179C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88558BA62C2F185D0017179C /* Extensions.swift */; };
+		88558BB72C2F185E0017179C /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88558BAB2C2F185E0017179C /* Period.swift */; };
+		88558BB92C2F185E0017179C /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88558BAD2C2F185E0017179C /* Section.swift */; };
+		88558BBB2C2F18800017179C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88558BBA2C2F18800017179C /* Assets.xcassets */; };
+		88722EEA2C3D92560032335D /* MenuBarExtraContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88722EE92C3D92560032335D /* MenuBarExtraContentView.swift */; };
+		88722EEC2C3D9B0B0032335D /* MenuBarExtraLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88722EEB2C3D9B0B0032335D /* MenuBarExtraLabelView.swift */; };
+		8893C0B02C3FF518007705E7 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8893C0AF2C3FF518007705E7 /* RealmSwift */; };
+		88970D3B2C3ECCCD004B0B79 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88970D392C3ECCCD004B0B79 /* Localizable.strings */; };
+		88CC6AC12C3EAFBB00355ECE /* RenameSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC6AC02C3EAFBB00355ECE /* RenameSectionView.swift */; };
+		88CC6AC32C3EAFC000355ECE /* AddNewSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC6AC22C3EAFC000355ECE /* AddNewSectionView.swift */; };
+		88CC6AC52C3EB2D600355ECE /* AboutSwishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CC6AC42C3EB2D600355ECE /* AboutSwishView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8834F67F2C2FF661000CA789 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		88558B912C2F18170017179C /* Swish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88558B9B2C2F18180017179C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88558B9D2C2F18180017179C /* Swish.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swish.entitlements; sourceTree = "<group>"; };
+		88558BA32C2F185D0017179C /* SwishApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwishApp.swift; sourceTree = "<group>"; };
+		88558BA52C2F185D0017179C /* Migrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Migrator.swift; sourceTree = "<group>"; };
+		88558BA62C2F185D0017179C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		88558BAB2C2F185E0017179C /* Period.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Period.swift; sourceTree = "<group>"; };
+		88558BAD2C2F185E0017179C /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		88558BBA2C2F18800017179C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88722EE62C3D88B40032335D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		88722EE92C3D92560032335D /* MenuBarExtraContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarExtraContentView.swift; sourceTree = "<group>"; };
+		88722EEB2C3D9B0B0032335D /* MenuBarExtraLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarExtraLabelView.swift; sourceTree = "<group>"; };
+		88970D3A2C3ECCCD004B0B79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		88970D3C2C3ECCD0004B0B79 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		88CC6AC02C3EAFBB00355ECE /* RenameSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenameSectionView.swift; sourceTree = "<group>"; };
+		88CC6AC22C3EAFC000355ECE /* AddNewSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewSectionView.swift; sourceTree = "<group>"; };
+		88CC6AC42C3EB2D600355ECE /* AboutSwishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSwishView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88558B8E2C2F18170017179C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8893C0B02C3FF518007705E7 /* RealmSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8834F67B2C2FF661000CA789 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8851E1672C3BC29B009C1C7E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				88558BBA2C2F18800017179C /* Assets.xcassets */,
+				88970D392C3ECCCD004B0B79 /* Localizable.strings */,
+				88558B9A2C2F18180017179C /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		88558B882C2F18170017179C = {
+			isa = PBXGroup;
+			children = (
+				88558B932C2F18170017179C /* Swish */,
+				88558B922C2F18170017179C /* Products */,
+				8834F67B2C2FF661000CA789 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88558B922C2F18170017179C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88558B912C2F18170017179C /* Swish.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88558B932C2F18170017179C /* Swish */ = {
+			isa = PBXGroup;
+			children = (
+				8851E1672C3BC29B009C1C7E /* Resources */,
+				88722EE62C3D88B40032335D /* Info.plist */,
+				88558BA32C2F185D0017179C /* SwishApp.swift */,
+				88722EE92C3D92560032335D /* MenuBarExtraContentView.swift */,
+				88722EEB2C3D9B0B0032335D /* MenuBarExtraLabelView.swift */,
+				88CC6ABF2C3EAFAF00355ECE /* Popovers */,
+				88C66C8E2C3C21BA00DF36E3 /* Helpers */,
+				88558BAE2C2F185E0017179C /* Models */,
+				88558B9D2C2F18180017179C /* Swish.entitlements */,
+			);
+			path = Swish;
+			sourceTree = "<group>";
+		};
+		88558B9A2C2F18180017179C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				88558B9B2C2F18180017179C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88558BAE2C2F185E0017179C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				88558BAD2C2F185E0017179C /* Section.swift */,
+				88558BAB2C2F185E0017179C /* Period.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		88C66C8E2C3C21BA00DF36E3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				88558BA52C2F185D0017179C /* Migrator.swift */,
+				88558BA62C2F185D0017179C /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		88CC6ABF2C3EAFAF00355ECE /* Popovers */ = {
+			isa = PBXGroup;
+			children = (
+				88CC6AC02C3EAFBB00355ECE /* RenameSectionView.swift */,
+				88CC6AC22C3EAFC000355ECE /* AddNewSectionView.swift */,
+				88CC6AC42C3EB2D600355ECE /* AboutSwishView.swift */,
+			);
+			path = Popovers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88558B902C2F18170017179C /* Swish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88558BA02C2F18180017179C /* Build configuration list for PBXNativeTarget "Swish" */;
+			buildPhases = (
+				88558B8D2C2F18170017179C /* Sources */,
+				88558B8E2C2F18170017179C /* Frameworks */,
+				88558B8F2C2F18170017179C /* Resources */,
+				8834F67F2C2FF661000CA789 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swish;
+			packageProductDependencies = (
+				8893C0AF2C3FF518007705E7 /* RealmSwift */,
+			);
+			productName = Swish;
+			productReference = 88558B912C2F18170017179C /* Swish.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88558B892C2F18170017179C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					88558B902C2F18170017179C = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+				};
+			};
+			buildConfigurationList = 88558B8C2C2F18170017179C /* Build configuration list for PBXProject "Swish" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 88558B882C2F18170017179C;
+			packageReferences = (
+				8893C0AC2C3FF518007705E7 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = 88558B922C2F18170017179C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88558B902C2F18170017179C /* Swish */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88558B8F2C2F18170017179C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88558BBB2C2F18800017179C /* Assets.xcassets in Resources */,
+				88970D3B2C3ECCCD004B0B79 /* Localizable.strings in Resources */,
+				88558B9C2C2F18180017179C /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88558B8D2C2F18170017179C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88558BAF2C2F185E0017179C /* SwishApp.swift in Sources */,
+				88558BB12C2F185E0017179C /* Migrator.swift in Sources */,
+				88558BB72C2F185E0017179C /* Period.swift in Sources */,
+				88558BB22C2F185E0017179C /* Extensions.swift in Sources */,
+				88CC6AC52C3EB2D600355ECE /* AboutSwishView.swift in Sources */,
+				88CC6AC32C3EAFC000355ECE /* AddNewSectionView.swift in Sources */,
+				88722EEA2C3D92560032335D /* MenuBarExtraContentView.swift in Sources */,
+				88558BB92C2F185E0017179C /* Section.swift in Sources */,
+				88CC6AC12C3EAFBB00355ECE /* RenameSectionView.swift in Sources */,
+				88722EEC2C3D9B0B0032335D /* MenuBarExtraLabelView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88970D392C3ECCCD004B0B79 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88970D3A2C3ECCCD004B0B79 /* en */,
+				88970D3C2C3ECCD0004B0B79 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88558B9E2C2F18180017179C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88558B9F2C2F18180017179C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		88558BA12C2F18180017179C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Swish/Swish.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swish/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = 4A4NWTSHC9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Swish/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Swish;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_LSUIElement = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = group.norcrowe.Swish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		88558BA22C2F18180017179C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Swish/Swish.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swish/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = 4A4NWTSHC9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Swish/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Swish;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_LSUIElement = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = group.norcrowe.Swish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88558B8C2C2F18170017179C /* Build configuration list for PBXProject "Swish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88558B9E2C2F18180017179C /* Debug */,
+				88558B9F2C2F18180017179C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88558BA02C2F18180017179C /* Build configuration list for PBXNativeTarget "Swish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88558BA12C2F18180017179C /* Debug */,
+				88558BA22C2F18180017179C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8893C0AC2C3FF518007705E7 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.49.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8893C0AF2C3FF518007705E7 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8893C0AC2C3FF518007705E7 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 88558B892C2F18170017179C /* Project object */;
+}

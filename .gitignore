@@ -1,0 +1,11 @@
+# Xcode
+*.xcworkspace/
+xcuserdata/
+*.xcuserstate
+
+# macOS
+.DS_Store
+
+# General
+.swp
+.DS_Store
