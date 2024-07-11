@@ -7,6 +7,6 @@
 
 # Swish
 
-A status bar Timer App for macOS
+A status bar timer App for macOS
 
 <img src="https://github.com/norcrowe/Swish/blob/main/Swish/Resources/Screenshot.png?raw=true" alt="Screenshot" style="width:40%; aspect-ratio:0.8;"> 
