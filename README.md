@@ -10,6 +10,7 @@
     <img src="https://img.shields.io/badge/macOS-13.0+-14245A" alt="macOS13.0+" style="text-decoration: none;" />
   </a>
 </p>
+
 # Swish
 
 A status bar timer App for macOS
