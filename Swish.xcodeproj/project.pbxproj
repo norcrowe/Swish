@@ -37,6 +37,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8832F9F72C400BA400FCECD9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8832F9F82C400CCE00FCECD9 /* License */ = {isa = PBXFileReference; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 		88558B912C2F18170017179C /* Swish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88558B9B2C2F18180017179C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		88558B9D2C2F18180017179C /* Swish.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swish.entitlements; sourceTree = "<group>"; };
@@ -88,6 +90,8 @@
 		88558B882C2F18170017179C = {
 			isa = PBXGroup;
 			children = (
+				8832F9F72C400BA400FCECD9 /* README.md */,
+				8832F9F82C400CCE00FCECD9 /* License */,
 				88558B932C2F18170017179C /* Swish */,
 				88558B922C2F18170017179C /* Products */,
 				8834F67B2C2FF661000CA789 /* Frameworks */,
